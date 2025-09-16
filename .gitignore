@@ -46,6 +46,9 @@ composer.lock
 /storage/logs
 /storage/users
 packages/
+!packages/spatie/
+!packages/spatie/laravel-html/
+!packages/spatie/laravel-html/**
 
 # Debug Files
 npm-debug.log

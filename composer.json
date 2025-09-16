@@ -21,7 +21,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "eklundkristoffer/seedster": "^7.0|^8.0|^9.0",
-        "laravelcollective/html": "^6.4"
+        "spatie/laravel-html": "^2.36"
     },
     "autoload": {
         "psr-4": {
@@ -38,5 +38,18 @@
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/spatie/laravel-html",
+            "options": {
+                "symlink": false
+            }
+        },
+        {
+            "type": "composer",
+            "url": "https://repo.packagist.org"
+        }
+    ]
 }
